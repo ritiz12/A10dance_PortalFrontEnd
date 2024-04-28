@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="653.0" prefWidth="298.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a10dance_frontend.HourController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <TilePane prefHeight="557.0" prefWidth="270.0">
+        <children>
+            <Pane prefHeight="552.0" prefWidth="277.0">
+                <children>
+                    <Label layoutX="4.0" prefHeight="43.0" prefWidth="271.0" text="A10dance">
+                        <font>
+                            <Font name="System Bold" size="27.0" />
+                        </font>
+                    </Label>
+                    <Button layoutX="40.0" layoutY="497.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Home">
+                        <font>
+                            <Font size="23.0" />
+                        </font>
+                    </Button>
+                    <Button fx:id="homeButton" layoutX="140.0" layoutY="497.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Hour">
+                        <font>
+                            <Font size="25.0" />
+                        </font>
+                    </Button>
+               <Button fx:id="logInBtn" layoutX="11.0" layoutY="64.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="88.0" text="Log In">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Button>
+               <Button fx:id="logOutBtn" layoutX="155.0" layoutY="64.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Log Out">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>cc
+               </Button>
+               <Pane layoutX="5.0" layoutY="131.0" prefHeight="75.0" prefWidth="293.0">
+                  <children>
+                     <Label fx:id="date1" layoutY="-1.0" prefHeight="31.0" prefWidth="279.0" text="Label">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font></Label>
+                     <Label layoutX="1.0" layoutY="44.0" prefHeight="17.0" prefWidth="22.0" text="In: ">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="109.0" layoutY="46.0" prefHeight="20.0" prefWidth="31.0" text="Out:">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="total1" layoutX="223.0" layoutY="51.0" prefHeight="17.0" prefWidth="76.0" text="Total">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                     <Label fx:id="InTime1" layoutX="29.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="InTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="outTime1" layoutX="140.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="OutTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <Pane layoutX="8.0" layoutY="220.0" prefHeight="75.0" prefWidth="293.0">
+                  <children>
+                     <Label fx:id="date2" layoutY="-1.0" prefHeight="31.0" prefWidth="279.0" text="Label">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="1.0" layoutY="44.0" prefHeight="17.0" prefWidth="22.0" text="In: ">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="109.0" layoutY="44.0" prefHeight="20.0" prefWidth="31.0" text="Out:">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="total2" layoutX="217.0" layoutY="45.0" prefHeight="17.0" prefWidth="76.0" text="Total">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                     <Label fx:id="in2" layoutX="29.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="InTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="out2" layoutX="140.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="OutTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <Pane layoutX="8.0" layoutY="320.0" prefHeight="75.0" prefWidth="293.0">
+                  <children>
+                     <Label fx:id="date3" layoutY="-1.0" prefHeight="31.0" prefWidth="279.0" text="Label">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font></Label>
+                     <Label layoutX="1.0" layoutY="44.0" prefHeight="17.0" prefWidth="22.0" text="In: ">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="109.0" layoutY="46.0" prefHeight="20.0" prefWidth="31.0" text="Out:">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="total3" layoutX="217.0" layoutY="46.0" prefHeight="17.0" prefWidth="76.0" text="Total">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                     <Label fx:id="in3" layoutX="29.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="InTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="out3" layoutX="140.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="OutTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <Pane layoutX="8.0" layoutY="416.0" prefHeight="75.0" prefWidth="293.0">
+                  <children>
+                     <Label fx:id="date4" layoutY="-1.0" prefHeight="31.0" prefWidth="279.0" text="Label">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font></Label>
+                     <Label layoutX="1.0" layoutY="44.0" prefHeight="17.0" prefWidth="22.0" text="In: ">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="109.0" layoutY="46.0" prefHeight="20.0" prefWidth="31.0" text="Out:">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="total4" layoutX="217.0" layoutY="46.0" prefHeight="17.0" prefWidth="76.0" text="Total">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                     <Label fx:id="in4" layoutX="29.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="InTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="out4" layoutX="140.0" layoutY="45.0" prefHeight="20.0" prefWidth="59.0" text="OutTime">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+                </children>
+            </Pane>
+        </children>
+    </TilePane>
+
+    <Label fx:id="welcomeText" />
+</VBox>

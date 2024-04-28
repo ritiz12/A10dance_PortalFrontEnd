@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="608.0" prefWidth="297.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a10dance_frontend.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TilePane prefHeight="557.0" prefWidth="270.0">
+      <children>
+         <Pane prefHeight="530.0" prefWidth="294.0">
+            <children>
+               <Label layoutX="4.0" prefHeight="43.0" prefWidth="271.0" text="A10dance">
+                  <font>
+                     <Font name="System Bold" size="27.0" />
+                  </font>
+               </Label>
+               <Label fx:id="record1" layoutX="1.0" layoutY="83.0" prefHeight="36.0" prefWidth="83.0" text="Label1">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font></Label>
+               <Label fx:id="record2" layoutX="106.0" layoutY="83.0" prefHeight="36.0" prefWidth="83.0" text="Label2">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font></Label>
+               <Label fx:id="record3" layoutX="205.0" layoutY="83.0" prefHeight="36.0" prefWidth="83.0" text="Label3">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font></Label>
+               <Button layoutX="37.0" layoutY="475.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Home">
+                  <font>
+                     <Font size="23.0" />
+                  </font>
+               </Button>
+               <Button fx:id="hourButton" layoutX="135.0" layoutY="475.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Hour">
+                  <font>
+                     <Font size="25.0" />
+                  </font>
+               </Button>
+               <Label fx:id="record1Hour" layoutX="1.0" layoutY="119.0" prefHeight="36.0" prefWidth="83.0" text="Label4">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+               <Label fx:id="record2Hour" layoutX="106.0" layoutY="119.0" prefHeight="36.0" prefWidth="83.0" text="Label5">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+               <Label fx:id="record3Hour" layoutX="205.0" layoutY="119.0" prefHeight="36.0" prefWidth="83.0" text="Label6">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+      </children>
+   </TilePane>
+
+    <Label fx:id="welcomeText" />
+</VBox>
